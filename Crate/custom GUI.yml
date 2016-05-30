@@ -1,0 +1,162 @@
+Virtual Keys GUI:
+  rows: 3
+  title: '&8Select your key: '
+  keys:
+    default:
+      slot: 13
+    #kit:
+    #  slot: 15
+    rankup:
+      slot: 11
+  slots:
+    '0':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '1':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '2':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '3':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '4':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '5':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '6':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '7':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '8':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '9':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '10':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '12':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '14':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '16':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '17':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '18':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '19':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '20':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '21':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '22':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '23':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '24':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '25':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+    '26':
+      itemID: 160
+      itemData: 15
+      stackSize: 1
+      displayname: '&0'
+      lore: []
+Chance GUI:
+  border:
+    itemID: 160
+    itemData: 15
+  title: '&a               Prize Chances'
+  use GUI: true
+file version: 0.0.0.1

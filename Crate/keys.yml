@@ -1,0 +1,66 @@
+# ######################################################################################################################################################################### #
+#                                                                                                                                                                           #
+#                                                                ArchonCrates Keys Configuration                                                                            #
+#                                                                                                                                                                           #
+#  Keys:                                                                                                                                                                    #
+#    default:                                                            - The keyType used to allow keys to be used on crates and to give/open crates with commands        #
+#      name: '&aCrate Key'                                               - The display name of the key item                                                                 #
+#      lore:                                                             - The lore of the key item                                                                         #
+#      - '&7Right click a crate'                                                                                                                                            #
+#      - '&7to use the key'                                                                                                                                                 #
+#      itemID: 131                                                       - The id of the key item                                                                           #
+#      itemData: 0                                                       - The data value of the key item                                                                   #
+#      glow: true                                                        - If true the key item will glow                                                                   #
+#      winMessage: '&e<player> &7has won &e<prize> &7in a crate!'        - The message which will be broadcast if 'Broadcast Win' is true for the prize                     #
+#      playerMessage: '&7Congratulations you won &e<prize>&7!'           - The message which will be sent to the player if 'Player Message' is true for the prize           #
+#      loot:                                                             - A list of loot which can be won by the key                                                       #
+#      - Diamonds                                                                                                                                                           #
+#      - Food                                                                                                                                                               #
+#      - Sword                                                                                                                                                              #
+#      - Gold                                                                                                                                                               #
+#      - Tools                                                                                                                                                              #
+#      - CrateKey                                                                                                                                                           #
+#                                                                                                                                                                           #
+#                                                                                                                                                                           #
+#                                                                                                                                                                           #
+# ######################################################################################################################################################################### #
+
+Keys:
+  default:
+    name: '&aCrate Key'
+    lore:
+    - '&7Right click a crate'
+    - '&7to use the key'
+    itemID: 131
+    itemData: 0
+    glow: true
+    winMessage: '&e<player> &7has won &e<prize> &7in a crate!'
+    playerMessage: '&7Congratulations you won &e<prize>&7!'
+    loot:
+    - Diamonds
+    - Food
+    - Sword
+    - Gold
+    - Tools
+    - CrateKey
+  golden:
+    name: '&6Golden Key'
+    lore:
+    - '&7Right click a crate'
+    - '&7to use the key'
+    itemID: 396
+    itemData: 0
+    glow: true
+    winMessage: '&e<player> &6has won &e<prize> &6in a crate!'
+    playerMessage: '&7Congratulations you won &e<prize>&7!'
+    loot:
+    - Diamonds
+    - Food
+    - Sword
+    - Gold
+    - Tools
+    - CrateKey
+    - GodApple
+    - DevHead
+    - Rank
+file version: 0.0.0.1

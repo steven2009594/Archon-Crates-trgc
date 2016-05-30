@@ -1,0 +1,30 @@
+# ######################################################################################################################################## #
+#                                                                                                                                          #
+#                                       Virtual Crate Type Configuration File                                                              #
+#                                                                                                                                          #
+#  Virtual Crates:                                                                                                                         #
+#      title: '&a        Mystery Crate'       - The title of the GUI when the crate is opened                                              #
+#      blockID: 54                            - The ID of the block you want the crate to be eg: 54 would be a chest block                 #
+#      blockData: 0                           - The data value of the block you want the crate to be eg: 5:2 would be birch planks         #
+#      openSound: CHEST_OPEN                  - The sound played to the player when they open a crate                                      #
+#      winSound: LEVEL_UP                     - The sound played to the player when they win a prize                                       #
+#      scrollSound: NOTE_BASS                 - The sound played as the prizes are scrolling in the crate GUI                              #
+#      openDuration: 8                        - The duration of how long the crate GUI is open for until the player wins (seconds)         #
+#      prizeDisplayDuration: 10               - The duration of which every prize is displayed (ticks 20 ticks = 1 second)                 #
+#                                                                                                                                          #
+#                                                                                                                                          #
+#                                                                                                                                          #
+# ######################################################################################################################################## #
+
+Virtual Crates:
+  title: '&a           Mystery Crate'
+  blockID: 54
+  blockData: 0
+  openSound: BLOCK_CHEST_OPEN
+  winSound: ENTITY_PLAYER_LEVELUP
+  scrollSound: BLOCK_NOTE_BASS
+  firework: true
+  openDuration: 8
+  prizeDisplayDuration: 10
+  disableColouredGlass: false
+file version: 0.0.0.1

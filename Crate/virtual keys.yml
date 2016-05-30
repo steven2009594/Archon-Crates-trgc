@@ -1,0 +1,70 @@
+# ######################################################################################################################################################################### #
+#                                                                                                                                                                           #
+#                                                                ArchonCrates Virtual Keys Configuration                                                                    #
+#                                                                                                                                                                           #
+#  Virtual Keys:                                                                                                                                                            #
+#    default:                                                            - The vkeyType used to allow keys to be used on crates and to give/open crates with commands       #
+#      name: '&aCrate Key'                                               - The display name of the key item                                                                 #
+#      itemID: 131                                                       - The id of the key item                                                                           #
+#      itemData: 0                                                       - The data value of the key item                                                                   #
+#      glow: true                                                        - If true the key item will glow                                                                   #
+#      winMessage: '&e<player> &7has won &e<prize> &7in a crate!'        - The message which will be broadcast if 'Broadcast Win' is true for the prize                     #
+#      playerMessage: '&7Congratulations you won &e<prize>&7!'           - The message which will be sent to the player if 'Player Message' is true for the prize           #
+#      loot:                                                             - A list of loot which can be won by the key                                                       #
+#      - Diamonds                                                                                                                                                           #
+#      - Food                                                                                                                                                               #
+#      - Sword                                                                                                                                                              #
+#      - Gold                                                                                                                                                               #
+#      - Tools                                                                                                                                                              #
+#      - CrateKey                                                                                                                                                           #
+#                                                                                                                                                                           #
+#                                                                                                                                                                           #
+#                                                                                                                                                                           #
+# ######################################################################################################################################################################### #
+
+Virtual Keys:
+  default:
+    name: '&aCrate Key'
+    itemID: 131
+    itemData: 0
+    glow: true
+    winMessage: '&e<player> &7has won &e<prize> &7in a crate!'
+    playerMessage: '&7Congratulations you won &e<prize>&7!'
+    loot:
+    - Diamonds
+    - Food
+    - Sword
+    - Gold
+    - Tools
+    - CrateKey
+  kit:
+    name: '&6Kits Key'
+    itemID: 396
+    itemData: 0
+    glow: true
+    winMessage: '&e<player> &6has won &e<prize> &7in a crate!'
+    playerMessage: '&7Congratulations you won &e<prize>&7!'
+    loot:
+    - Diamonds
+    - Kitf1
+    - Kitf2
+    - Kitf3
+    - Kitf4
+  rankup:
+    name: '&6Rankup Key'
+    itemID: 371
+    itemData: 0
+    glow: true
+    winMessage: '&6<player> &6has won &e<prize> &6in a crate!'
+    playerMessage: '&6Congratulations you won &e<prize>&6!'
+    loot:
+    - Diamonds
+    - RankupFortress
+    - RankupFortressPlus
+    - RankupIndustrial
+    - RankupIndustrialPlus
+    - RankupImperial
+    - RankupImperialPlus
+    - RankupVIP
+    - RankupVIPPlus
+file version: 0.0.0.1

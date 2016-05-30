@@ -1,0 +1,56 @@
+# ######################################################################################################################################## #
+#                                                                                                                                          #
+#                                       Crate Type Configuration File                                                                      #
+#                                                                                                                                          #
+#  Crates:                                                                                                                                 #
+#    default:                                 - Crate type name (Can be anything) used to create crates of this type                       #
+#      title: '&a        Default Crate'       - The title of the GUI when the crate is opened                                              #
+#      blockID: 54                            - The ID of the block you want the crate to be eg: 54 would be a chest block                 #
+#      blockData: 0                           - The data value of the block you want the crate to be eg: 5:2 would be birch planks         #
+#      openSound: CHEST_OPEN                  - The sound played to the player when they open a crate                                      #
+#      winSound: ENTITY_PLAYER_LEVELUP        - The sound played to the player when they win a prize                                       #
+#      scrollSound: BLOCK_NOTE_BASS           - The sound played as the prizes are scrolling in the crate GUI                              #
+#      effects: true                          - If true it will play the effect defined (below) when a player is using a crate             #
+#      firework: true                         - If true it will lurch a firework when a player wins                                        #
+#      openDuration: 8                        - The duration of how long the crate GUI is open for until the player wins (seconds)         #
+#      prizeDisplayDuration: 10               - The duration of which every prize is displayed (ticks 20 ticks = 1 second)                 #
+#      useableKeys:                                                                                                                        #
+#      - default                                                                                                                           #
+#      wrongKeyMessage: '&cYou can't use that key for this crate!'                                                                         #
+#                                                                                                                                          #
+#                                                                                                                                          #
+#                                                                                                                                          #
+# ######################################################################################################################################## #
+
+Crates:
+  default:
+    title: '&a            Default Crate'
+    blockID: 54
+    blockData: 0
+    openSound: BLOCK_CHEST_OPEN
+    winSound: ENTITY_PLAYER_LEVELUP
+    scrollSound: BLOCK_NOTE_BASS
+    effects: true
+    firework: true
+    openDuration: 8
+    prizeDisplayDuration: 10
+    disableColouredGlass: false
+    useableKeys:
+    - default
+    wrongKeyMessage: '&cYou can''t use that key for this crate!'
+  golden:
+    title: '&6            Golden Crate'
+    blockID: 130
+    blockData: 0
+    openSound: BLOCK_CHEST_OPEN
+    winSound: ENTITY_PLAYER_LEVELUP
+    scrollSound: BLOCK_NOTE_BASS
+    effects: true
+    firework: true
+    openDuration: 8
+    prizeDisplayDuration: 10
+    disableColouredGlass: false
+    useableKeys:
+    - golden
+    wrongKeyMessage: '&cYou can''t use that key for this crate!'
+file version: 0.0.0.1
