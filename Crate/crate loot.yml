@@ -351,7 +351,7 @@ Crate Loot:
     Sub-Commands:
     - manuaddsub <player> vipplus	
 #################################### Kit items Below for Kit Crate keys ##############
-Kitf1:
+  Kitf1:
     Item ID: 340
     Item Data: 0
     StackAmount: 1
@@ -367,7 +367,7 @@ Kitf1:
     Player Win Amount: '*'
     Commands:
     - kit f1 <player>
-Kitf2:
+  Kitf2:
     Item ID: 340
     Item Data: 0
     StackAmount: 1
@@ -383,7 +383,7 @@ Kitf2:
     Player Win Amount: '*'
     Commands:
     - kit f2 <player>
-Kitf3:
+  Kitf3:
     Item ID: 340
     Item Data: 0
     StackAmount: 1
@@ -399,7 +399,7 @@ Kitf3:
     Player Win Amount: '*'
     Commands:
     - kit f3 <player>
-Kitf4:
+  Kitf4:
     Item ID: 340
     Item Data: 0
     StackAmount: 1
