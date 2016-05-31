@@ -58,7 +58,7 @@ Virtual Keys:
     winMessage: '&6<player> &6has won &e<prize> &6in a crate!'
     playerMessage: '&6Congratulations you won &e<prize>&6!'
     loot:
-    - Diamonds
+    - Emeralds
     - RankupFortress
     - RankupFortressPlus
     - RankupIndustrial

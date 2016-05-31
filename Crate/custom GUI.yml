@@ -4,8 +4,8 @@ Virtual Keys GUI:
   keys:
     default:
       slot: 13
-    #kit:
-    #  slot: 15
+    kit:
+      slot: 15
     rankup:
       slot: 11
   slots:
